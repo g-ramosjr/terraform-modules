@@ -1,0 +1,17 @@
+syntax: glob
+
+# vi
+*.swp
+
+# OSX access files
+.DS_Store
+
+# terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+.terraform/*
+secret.tfvars
+secret.tf
+secret*.tf
+secret*.tfvars
